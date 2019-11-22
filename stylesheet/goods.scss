@@ -1,0 +1,268 @@
+/* 
+width:1196px;#2884c7
+*/
+// 全部商品种类导航栏
+.allShop{
+    border-bottom:2px solid black;
+    height:42px;
+    width:100%;
+    .aS{
+        width:1196px;
+        margin:0 auto;
+        height:42px;
+        position: relative;
+        .aS1{
+            width:196px;
+            height:42px;
+            background :#333;
+            float: left;
+            span{
+                display: block;
+                color:white;
+                margin-left:43px;
+                height:42px;
+                line-height:42px;
+            }
+        }
+        .aS2{
+            padding-left: 14px;
+            height:42px;
+            width:192px;
+            line-height:42px;
+            float: left;
+            a{
+                display: block;
+                float: left;
+                margin-left:20px;
+                
+            }
+        }
+        .aS3{
+            float: right;
+            height:42px;
+            width:100px;
+            line-height:42px;
+            a{
+                display: block;
+                font-size:16px;
+
+            }
+        }
+
+    }
+    .mainMenu{
+        display: none;
+        position: absolute;
+        top:44px;
+    }
+}
+// 检索导航栏 首页/搜索全部结果
+.allNav{
+    width:100%;
+    height:147px;
+    background: white;
+    .aN{
+        width:1196px;
+        margin:0 auto;
+        height:147px;
+
+        .aN1{
+            width:1196px;
+            height:44px;
+            line-height:44px;
+            border-bottom:1px solid gray;
+
+            a{
+                display: block;
+                float: left;
+                font-size: 13px;
+                margin-right:10px;
+            }
+        }
+        .aN2{
+            height:41px;
+            width:1196px;
+            padding-left:25px;
+            line-height:41px;
+            border-bottom:1px solid gray;
+            span{
+                height:41px;
+                line-height:41px;
+                display:block;
+                float: left;
+                margin-right:40px;
+                a{
+                    font-size:12px;
+                    height:12px;
+                    display: block;
+                }
+                a:hover{
+                    color:#2884c7;
+                }
+            }
+        }
+        .aN3{
+            height:51px;
+            .aN31{
+                float: left;
+                height:51px;
+                span{
+                    display: block;
+                    height:30px;
+                    padding-top:20px;
+                    float: left;
+                    a{
+                        font-size: 12px;
+                        height:12px;
+                        padding:0 50px;
+                        border-left:1px solid gray;
+                        color:gray;
+                    }
+                }
+                span:nth-child(1) a{
+                    color:red;
+                    border:0;
+                    padding:0 20px 0 0 ;
+                }
+            }
+            .aN32{
+                float:right;
+                height: 51px;
+                line-height:51px;
+                span{
+                    display: block;
+                    font-size:12px;
+                    float: left;
+                    height:51px;
+                    line-height:51px;
+                    padding-right:50px;
+                    color:gray;
+                    i{
+                        font-size:12px;
+                        margin:0 2px;
+                        color:black;
+                    }
+                }
+                span:nth-child(2){
+                    i:nth-child(1){
+                        color:red;
+                    }
+                }
+                a{
+                    display: block;
+                    float: right;
+                    font-size:16px;
+                    margin:0 10px;
+                }
+            }
+        }
+    }
+}
+
+// 所有商品详情
+.allGoods{
+    width:100%;
+    height:2518px;
+    background:#f3f3f3;
+    .aG{
+        width:1196px;
+        height:2508px;
+        margin:0 auto;
+        padding-top:10px;
+        .aG1{
+            width:228px;
+            height:370px;
+            margin: 0 5px 10px 4px;
+            padding:36px 0  0 0 ;
+            // border:1px solid red;
+            border:1px solid white;
+            float: left;
+            background: white;
+            position:relative;
+            .aG11{
+                width:228px;
+                height:180px;
+                text-align: center;
+                img{
+                    width:180px;
+                    height:180px;
+
+                }
+            }
+            .aG2{
+                width:186px;
+                height:34px;
+                padding: 0 21px;
+            }
+            .aG3{
+                width:188px;
+                height:34px;
+                padding:0 20px;
+                font-size: 12px;
+            }
+            .aG4{
+                width:188px;
+                height:24px;
+                padding:0 20px;
+                color:red;
+                font-size:14px;
+                line-height:24px;
+            }
+            .aG5{
+                height:18px;
+                width:188px;
+                padding:0 20px;
+                .star{
+                    height:18px;
+                    width:100px;
+                    float:left;
+                    span{
+                        display: block;
+                        width:18px;
+                        height:18px;
+                        font-size: 18px;
+                        float: left;
+                    }
+                }
+                .evaluate{
+                    width:88px;
+                    float:right;
+                    display: block;
+                    height:18px;
+                    font-size:14px;
+                    line-height:18px;
+                }
+                
+            }
+            .aG6{
+                width:228px;
+                height:39px;
+                position: absolute;
+                bottom:0px;
+                left:-1px;
+                display: block;
+                text-align: center;
+                line-height:39px;
+                // background: red;
+                // color:white;                
+                background: white;
+                color:red;
+                border-top:1px solid #f3f3ff;
+                
+            }
+            .aG7{
+                position: absolute;
+                top:206px;
+                background:black;
+                height:24px;
+                width:168px;
+                display: none;
+                color:white;
+                margin:0 20px;
+                padding-left:20px;
+                padding-top:10px;
+            }
+        }
+        
+    }
+}
